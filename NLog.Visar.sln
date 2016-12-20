@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLog.Visar.WPF", "NLog.Visar.WPF\NLog.Visar.WPF.csproj", "{D8FEBDE6-DC0C-4965-AF67-BDA603E3AD04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLog.Visar.WinForms", "NLog.Visar.WinForms\NLog.Visar.WinForms.csproj", "{B6A4BCBA-86BD-441A-9E40-A034548EECF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLog.Visar.WinForms20", "NLog.Visar.WinForms\NLog.Visar.WinForms20.csproj", "{2935410F-1A1F-4F4D-A684-737BE2D38C64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8FEBDE6-DC0C-4965-AF67-BDA603E3AD04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8FEBDE6-DC0C-4965-AF67-BDA603E3AD04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8FEBDE6-DC0C-4965-AF67-BDA603E3AD04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8FEBDE6-DC0C-4965-AF67-BDA603E3AD04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6A4BCBA-86BD-441A-9E40-A034548EECF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6A4BCBA-86BD-441A-9E40-A034548EECF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6A4BCBA-86BD-441A-9E40-A034548EECF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6A4BCBA-86BD-441A-9E40-A034548EECF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2935410F-1A1F-4F4D-A684-737BE2D38C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2935410F-1A1F-4F4D-A684-737BE2D38C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2935410F-1A1F-4F4D-A684-737BE2D38C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2935410F-1A1F-4F4D-A684-737BE2D38C64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
