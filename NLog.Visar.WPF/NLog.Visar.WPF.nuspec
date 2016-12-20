@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>NLog.Visar.WPF</id>
+    <version>1.0.86.3</version>
+    <title>NLog.Visar.WPF</title>
+    <authors>Dmitriy Ekimov, Eduard Schavelev</authors>
+    <owners>Dmitriy Ekimov, Eduard Schavelev</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://nips.ru/lias/premis</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>содержит NLog WPF Targets</description>
+    <releaseNotes>Пока что только MessageBox, ExceptionBox. Переход на TargetForDialog</releaseNotes>
+    <copyright>Copyright © 2016</copyright>
+    <tags>NLog WPF Targets Visar</tags>
+	<dependencies>
+	</dependencies>
+  </metadata>
+  	<files>
+	  <file src="bin\Debug\NLog.Visar.WPF.dll" target="lib\net40" /> 
+	  <file src="bin\Debug\NLog.Visar.WPF.XML" target="lib\net40"  />
+    </files>
+</package>

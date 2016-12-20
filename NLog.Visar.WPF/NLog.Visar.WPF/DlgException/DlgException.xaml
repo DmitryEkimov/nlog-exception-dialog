@@ -1,0 +1,26 @@
+﻿<Window x:Class="NLog.Visar.WPF.DlgException.DlgException"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="DlgException" Height="300" Width="437">
+    <Grid Width="421" Margin="4,0,4,2">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="84*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Name="TbxExceptionDescription" Margin="1,70,1,2" Text="Подробная информация об ошибке:" TextWrapping="Wrap" Grid.Row="1" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
+        <Canvas Name="Panel1" Height="38" Margin="0,-2,0,0" VerticalAlignment="Top" Grid.Row="1" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" >
+            <Button Name="Copy" Height="23" Width="25" TabIndex="2" Click="Copy_OnClick" HorizontalAlignment="Right" VerticalAlignment="Bottom" ToolTip="Скопировать текст исключения в буфер обмена" Canvas.Left="50" Canvas.Top="42">
+                <Image Source="/Resources/page_copy.png" />
+            </Button>
+            <Button Name="Continue" Height="23" Width="95" TabIndex="0" Click="Continue_OnClick" HorizontalAlignment="Right" VerticalAlignment="Bottom" ToolTip="Продолжить работу" Canvas.Left="320" Canvas.Top="42">Продолжить</Button>
+            <Button Name="Details" Height="23" Width="42" TabIndex="1" Click="Details_OnClick" HorizontalAlignment="Right" VerticalAlignment="Bottom" ToolTip="Развернуть/Свернуть подробный отчёт" Canvas.Left="3" Canvas.Top="42" >
+                <Image Source="/Resources/page_copy.png" />
+            </Button>
+            <Image Height="32" Canvas.Left="14.76" Source="/NLog.Visar.WPF;component/Resources/WindowsError.ico" Stretch="Fill" Canvas.Top="-3.48" Width="32" RenderTransformOrigin="0.312,0"/>
+        </Canvas>
+        <TextBlock x:Name="LblExceptionMessage" Height="45" FontSize="11" FontFamily="Microsoft Sans Serif" Margin="62,-9.76,1,0" VerticalAlignment="Top" TextWrapping="Wrap" Text="Ошибка соединения с сервисом. Для дальнейшей работы требуется успешное прохождение авторизации" Grid.Row="1" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" />
+    </Grid>
+</Window>

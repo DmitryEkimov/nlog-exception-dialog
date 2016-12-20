@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>NLog.Visar.WinForms</id>
+    <version>1.0.86.4</version>
+    <title>NLog.Visar.WinForms</title>
+    <authors>Dmitriy Ekimov, Eduard Schavelev</authors>
+    <owners>Dmitriy Ekimov, Eduard Schavelev</owners>
+	<licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://visar.ru</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>содержит NLog WinForms Targets</description>
+    <releaseNotes>Пока что только MessageBox, ExceptionBox.
+Добавлено net20. Переход на класс TargetForDialog</releaseNotes>
+    <copyright>Copyright © 2016</copyright>
+    <tags>NLog WinForms Targets Visar</tags>
+	<dependencies>
+	</dependencies>
+  </metadata>
+  	<files>
+      <file src="bin\Debug\NLog.Visar.WinForms.dll" target="lib\net40" />
+      <file src="bin\Debug\NLog.Visar.WinForms.XML" target="lib\net40"  />
+
+      <file src="bin\Debug20\NLog.Visar.WinForms.dll" target="lib\net20" />
+      <file src="bin\Debug20\NLog.Visar.WinForms.XML" target="lib\net20"  />
+    </files>
+</package>
