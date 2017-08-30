@@ -21,7 +21,6 @@ Supported in .NET and Mono
   </target>
 </targets>
 ```
-Read more about using the [[Configuration File]].
 ## Parameters
 ### General Options
 * **name** - Name of the target.
