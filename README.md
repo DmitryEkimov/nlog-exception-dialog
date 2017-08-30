@@ -12,9 +12,10 @@ Supported in .NET and Mono
           caption="Layout"
           layout="Layout">
   </target>
-  <target xsi:type="ExceptionBox"
+  <target xsi:type="ComplexBox"
           name="String"
-          caption="Layout"
+          caption="String"
+          
           layout="Layout"
           >
   </target>
@@ -27,13 +28,15 @@ Read more about using the [[Configuration File]].
 
 ### Layout Options
 * **layout** - Text to be rendered. [Layout](Layout) Required. Default: `${message}`
-* **caption** - Header. [Layout](Layout)  
+* **caption** - Header. [Layout](String) 
+* **icon** - Icon name (optional). Possible values (case insenitive): "question","info","warning","error","no" [Layout](String) 
 
 ### Programmatic example
 You can also configure the target programmatically:
 ```csharp
-            var target = new ExceptionBoxTarget();
+            var target = new ComplexBoxTarget();
             target.Caption = "program name";
+            target.Icon = "error";
             target.Layout = "${event-properties:item=MyValue} ${message}";
             NLog.Config.SimpleConfigurator.ConfigureForTargetLogging(target, LogLevel.Debug);
 ```
