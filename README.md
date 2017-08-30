@@ -28,8 +28,8 @@ Read more about using the [[Configuration File]].
 
 ### Layout Options
 * **layout** - Text to be rendered. [Layout](Layout) Required. Default: `${message}`
-* **caption** - Header. [Layout](String) 
-* **icon** - Icon name (optional). Possible values (case insenitive): "question","info","warning","error","no" [Layout](String) 
+* **caption** - Header. [String](String) 
+* **icon** - Icon name (optional). Possible values (case insenitive): "question","info","warning","error","no" [String](String) 
 
 ### Programmatic example
 You can also configure the target programmatically:
