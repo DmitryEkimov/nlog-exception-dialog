@@ -1,7 +1,7 @@
 # nlog-exception-dialog
 Exception dialog box for WinForms and WPF as Target ro NLOG (http://nlog-project.org/)
 
-Writes log messages to the console with customizable coloring. 
+Writes log messages to prepared dialog box. 
 
 Supported in .NET and Mono
 ## Configuration Syntax
