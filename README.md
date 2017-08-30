@@ -27,8 +27,8 @@ Supported in .NET and Mono
 
 ### Layout Options
 * **layout** - Text to be rendered. [Layout](Layout) Required. Default: `${message}`
-* **caption** - Header. [String](String) 
-* **icon** - Icon name (optional). Possible values (case insenitive): "question","info","warning","error","no" [String](String) 
+* **caption** - Header. [String](String) (optional). Default: `${processname}`
+* **icon** - Icon name (optional). Possible values (case insenitive): `question`,`info`,`warning`,`error`,`no` [String](String) 
 
 ### Programmatic example
 You can also configure the target programmatically:
